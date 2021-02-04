@@ -2,18 +2,20 @@
 name: Node.js CI
 
 on:
-  push: 
+  push:
     branches: [ main ]
 	
 jobs:
   testing:
-     runs-on: ubuntu-latest
-     steps: 
-        name: Print Message 1
+    runs-on: ubuntu-latest
+
+    steps:
+    -   name: Print Message 1
         run: echo "Run testing"
    
   deploy_test:
      runs-on: ubuntu-latest 
-     steps: 
-        name: Print Message 2
+   
+     steps:
+     -  name: Print Message 2
         run: echo "Run deploy"
