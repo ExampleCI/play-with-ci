@@ -23,5 +23,5 @@ jobs:
      steps:
      -  name: Print Message 2
         run: echo "Run deploy"
-     -  name: Check Mocha
-        run: aws --version
+     -  name: Check Node version
+        run: node --version
