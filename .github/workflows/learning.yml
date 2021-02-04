@@ -24,4 +24,4 @@ jobs:
      -  name: Print Message 2
         run: echo "Run deploy"
      -  name: Check Mocha
-        run: mocha -version
+        run: mocha --version
