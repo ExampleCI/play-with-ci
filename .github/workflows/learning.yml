@@ -13,6 +13,9 @@ jobs:
     steps:
     -   name: Print Message 1
         run: echo "Run testing"
+
+    -   name: Git clone repo
+        uses: actions/checkout@v1 
    
   deploy_test:
      runs-on: ubuntu-latest 
