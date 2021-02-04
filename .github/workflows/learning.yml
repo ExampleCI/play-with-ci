@@ -16,7 +16,7 @@ jobs:
    
   deploy_test:
      runs-on: ubuntu-latest 
-   
+     needs: [testing]
      steps:
      -  name: Print Message 2
         run: echo "Run deploy"
