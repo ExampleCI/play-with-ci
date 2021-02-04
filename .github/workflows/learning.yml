@@ -26,5 +26,3 @@ jobs:
      steps:
      -  name: Print Message 2
         run: echo "Run deploy"
-     -  name: Check Node version
-        run: node --version
